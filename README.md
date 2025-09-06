@@ -28,6 +28,7 @@ cd todo-app
 
 2️⃣ Install dependencies
 npm install
+npm i react-icons
 
 3️⃣ Run locally
 npm run dev
@@ -38,8 +39,11 @@ App will be available at:
 4️⃣ Build for production
 npm run build
 
-📸 Screenshots
-![my-todo-list-app](./src/assets/screenshot.png)
+## 📸 Screenshots
+
+| 🌞 Light Mode                             | 🌙 Dark Mode                            |
+| ----------------------------------------- | --------------------------------------- |
+| ![Light Mode](./src/assets/lightMode.png) | ![Dark Mode](./src/assets/darkMode.png) |
 
 📌 Future Improvements
 Add task editing
