@@ -96,8 +96,8 @@ const ToDoApp = () => {
             type="text"
             value={task}
             onChange={(e) => setTask(e.target.value)}
-            className="sm:text-md border rounded flex-2 md:flex-3 dark:bg-gray-900 bg-white sm:h-10
-            text-black p-1 min-w-0 focus:outline-none focus:ring-2 ring-amber-400"
+            className="sm:text-md border rounded flex-2 md:flex-3 dark:bg-gray-900 dark:text-gray-200 bg-white sm:h-10
+            text-black p-1 min-w-0 focus:outline-none focus:ring-2 ring-amber-400 pl-2"
           />
           <button
             type="submit"
