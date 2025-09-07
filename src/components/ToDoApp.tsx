@@ -89,13 +89,14 @@ const ToDoApp = () => {
           className="w-full gap-y-3 lg:w-200 md:w-150 mx-auto flex flex-col sm:flex-row justify-between items-center gap-2 border-2
           border-slate-800 bg-yellow-100 dark:bg-gray-800 font-bold rounded-2xl p-2 max-w-xs sm:max-w-3xl"
         >
-          <label className="flex-2 mt-1">Add the tasks you wish to do :</label>
+          <label className="flex-2 mt-1 dark:text-gray-400">
+            Add the tasks you wish to do :
+          </label>
           <input
             type="text"
             value={task}
             onChange={(e) => setTask(e.target.value)}
-            placeholder="Enter your task here..."
-            className="sm:text-md border rounded flex-2 md:flex-3 bg-white sm:h-10
+            className="sm:text-md border rounded flex-2 md:flex-3 dark:bg-gray-900 bg-white sm:h-10
             text-black p-1 min-w-0 focus:outline-none focus:ring-2 ring-amber-400"
           />
           <button
